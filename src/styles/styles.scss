@@ -1,0 +1,184 @@
+$primary-color: #2196F3;
+$secondary-color: #DFE5EC;
+$background-color: #FFFFFF;
+$font-color: #4A4A4A;
+
+main {
+  margin: auto;
+  padding: 4rem;
+  max-width: 960px;
+  width: 100%;
+  background-color: #F3F7FA;
+  font-family: 'Open Sans';
+  color: $font-color;
+}
+.container{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column; /* Для планшетів і мобільних пристроїв, розташування в колонку */
+  }
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin:0;
+}
+
+.header {
+  text-align: center;
+}
+.card {
+  width: 100%;
+  height: 11.5rem;
+  border-radius: 0.5rem;
+  background-color: $background-color;
+  box-shadow: 0px 2px 8px 0px #0000001A;
+  padding: 1.25rem;
+  flex-direction: column;
+  margin-top: 1.25rem;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+.card-header {
+  align-items: center;
+}
+.price {
+  font-size: 1.5rem;
+  color: $primary-color;
+  font-weight: 600;
+}
+.logo {
+  width: 119px;
+  height: 41px;
+}
+.card-content {
+}
+.route {
+  margin-top: 1rem;
+}
+.route-description:nth-child(n + 2) {
+  margin-left: 1.25rem ;
+}
+.route-description {
+  flex: auto;
+}
+.title {
+  font-size: 0.75rem;
+  color: #A0B0B9;
+}
+.info {
+  font-size: 0.875rem;
+  color: #4A4A4A;
+}
+.ticket-list {
+  max-width: 31.375rem;
+  width: 100%;
+}
+.sort-options {
+  width: 100%;
+  display: flex;
+  height: 3.125rem;
+}
+
+.sort-button {
+  flex: 1;
+  font-size: 12px;
+  background-color: $background-color;
+  border: solid 1px $secondary-color;
+}
+.sort-button.active {
+  background-color: $primary-color;
+  color: $background-color;
+}
+
+.sort-button:not(.active):hover {
+  background-color: $secondary-color;
+}
+
+.left-border {
+  border-radius: 0.5rem 0 0 0.5rem;
+}
+.right-border {
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+
+.more-button {
+  width:100%;
+  margin-top: 1.25rem;
+  font-size: 12px;
+  border: solid 1px $secondary-color;
+  border-radius: 0.5rem;
+  background-color: $primary-color;
+  color: $background-color;
+  height: 3.125rem;
+}
+
+.more-button:disabled, .more-button:hover {
+  background-color: $secondary-color;
+  color: $font-color
+}
+
+.filter-options {
+  width: 14.5rem;
+  height: 15.75rem;
+  border-radius: 0.5rem;
+  background-color: $background-color;
+  box-shadow: 0px 2px 8px 0px #0000001A;
+  padding: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+.filter-title {
+font-size: 13px
+}
+
+.filter-option {
+  margin-top: 1.125rem;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+}
+
+.filter-option input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 1px solid $secondary-color;
+  border-radius: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+}
+
+.filter-options input[type="checkbox"]:checked::before {
+  content: "✓";
+  display: block;
+  text-align: center;
+  color: $primary-color;
+  background-color: $background-color;
+  border-radius: 5px;
+  border: 1px solid $primary-color;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+
+.filter-options input[type="checkbox"]:hover {
+  border-color: $primary-color;
+}

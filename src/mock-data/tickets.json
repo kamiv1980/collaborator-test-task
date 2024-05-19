@@ -1,0 +1,236 @@
+[
+  {
+    "id": 1,
+    "price": 13300,
+    "departureRoute": {
+      "path": "LHR – DXB",
+      "layovers": ["HKG"],
+      "departureTime": "10:45",
+      "arrivalTime": "08:00",
+      "duration": "34h 15m"
+    },
+    "returnRoute": {
+      "path": "DXB – LHR",
+      "layovers": ["HKG"],
+      "departureTime": "11:20",
+      "arrivalTime": "00:50",
+      "duration": "16h 30m"
+    }
+  },
+  {
+    "id": 2,
+    "price": 12000,
+    "departureRoute": {
+      "path": "LHR – DXB",
+      "layovers": [],
+      "departureTime": "11:00",
+      "arrivalTime": "19:00",
+      "duration": "8h 0m"
+    },
+    "returnRoute": {
+      "path": "DXB – LHR",
+      "layovers": [],
+      "departureTime": "13:00",
+      "arrivalTime": "21:00",
+      "duration": "8h 0m"
+    }
+  },
+  {
+    "id": 3,
+    "price": 14500,
+    "departureRoute": {
+      "path": "LHR – DXB",
+      "layovers": ["IST"],
+      "departureTime": "09:30",
+      "arrivalTime": "22:00",
+      "duration": "10h 30m"
+    },
+    "returnRoute": {
+      "path": "DXB – LHR",
+      "layovers": ["IST"],
+      "departureTime": "14:00",
+      "arrivalTime": "23:30",
+      "duration": "10h 30m"
+    }
+  },
+  {
+    "id": 4,
+    "price": 15000,
+    "departureRoute": {
+      "path": "LHR – DXB",
+      "layovers": ["FRA"],
+      "departureTime": "08:45",
+      "arrivalTime": "23:00",
+      "duration": "12h 15m"
+    },
+    "returnRoute": {
+      "path": "DXB – LHR",
+      "layovers": ["FRA"],
+      "departureTime": "12:00",
+      "arrivalTime": "21:15",
+      "duration": "12h 15m"
+    }
+  },
+  {
+    "id": 5,
+    "price": 11000,
+    "departureRoute": {
+      "path": "LHR – DXB",
+      "layovers": [],
+      "departureTime": "12:00",
+      "arrivalTime": "20:00",
+      "duration": "8h 0m"
+    },
+    "returnRoute": {
+      "path": "DXB – LHR",
+      "layovers": [],
+      "departureTime": "14:00",
+      "arrivalTime": "22:00",
+      "duration": "8h 0m"
+    }
+  },
+  {
+    "id": 6,
+    "price": 17000,
+    "departureRoute": {
+      "path": "LHR – DXB",
+      "layovers": ["AMS", "IST", "DOH"],
+      "departureTime": "06:00",
+      "arrivalTime": "23:00",
+      "duration": "14h 0m"
+    },
+    "returnRoute": {
+      "path": "DXB – LHR",
+      "layovers": ["AMS", "IST", "DOH"],
+      "departureTime": "15:00",
+      "arrivalTime": "06:00",
+      "duration": "14h 0m"
+    }
+  },
+  {
+    "id": 7,
+    "price": 9000,
+    "departureRoute": {
+      "path": "LHR – DXB",
+      "layovers": ["DOH"],
+      "departureTime": "14:00",
+      "arrivalTime": "04:00",
+      "duration": "12h 0m"
+    },
+    "returnRoute": {
+      "path": "DXB – LHR",
+      "layovers": ["DOH"],
+      "departureTime": "16:00",
+      "arrivalTime": "06:00",
+      "duration": "12h 0m"
+    }
+  },
+  {
+    "id": 8,
+    "price": 12500,
+    "departureRoute": {
+      "path": "LHR – DXB",
+      "layovers": ["MUC"],
+      "departureTime": "07:00",
+      "arrivalTime": "21:00",
+      "duration": "10h 0m"
+    },
+    "returnRoute": {
+      "path": "DXB – LHR",
+      "layovers": ["MUC"],
+      "departureTime": "17:00",
+      "arrivalTime": "07:00",
+      "duration": "10h 0m"
+    }
+  },
+  {
+    "id": 9,
+    "price": 14000,
+    "departureRoute": {
+      "path": "LHR – DXB",
+      "layovers": ["CDG", "AMS"],
+      "departureTime": "13:00",
+      "arrivalTime": "23:00",
+      "duration": "9h 0m"
+    },
+    "returnRoute": {
+      "path": "DXB – LHR",
+      "layovers": ["CDG", "AMS"],
+      "departureTime": "19:00",
+      "arrivalTime": "05:00",
+      "duration": "9h 0m"
+    }
+  },
+  {
+    "id": 10,
+    "price": 13500,
+    "departureRoute": {
+      "path": "LHR – DXB",
+      "layovers": ["ZRH"],
+      "departureTime": "10:00",
+      "arrivalTime": "22:00",
+      "duration": "11h 0m"
+    },
+    "returnRoute": {
+      "path": "DXB – LHR",
+      "layovers": ["ZRH"],
+      "departureTime": "21:00",
+      "arrivalTime": "09:00",
+      "duration": "11h 0m"
+    }
+  },
+  {
+    "id": 11,
+    "price": 10000,
+    "departureRoute": {
+      "path": "LHR – DXB",
+      "layovers": ["MAD", "BCN", "FCO"],
+      "departureTime": "15:00",
+      "arrivalTime": "03:00",
+      "duration": "12h 0m"
+    },
+    "returnRoute": {
+      "path": "DXB – LHR",
+      "layovers": ["MAD", "BCN", "FCO"],
+      "departureTime": "23:00",
+      "arrivalTime": "11:00",
+      "duration": "12h 0m"
+    }
+  },
+  {
+    "id": 12,
+    "price": 9500,
+    "departureRoute": {
+      "path": "LHR – DXB",
+      "layovers": [],
+      "departureTime": "11:00",
+      "arrivalTime": "19:00",
+      "duration": "8h 0m"
+    },
+    "returnRoute": {
+      "path": "DXB – LHR",
+      "layovers": [],
+      "departureTime": "13:00",
+      "arrivalTime": "21:00",
+      "duration": "8h 0m"
+    }
+  },
+  {
+    "id": 13,
+    "price": 8000,
+    "departureRoute": {
+      "path": "LHR – DXB",
+      "layovers": ["FRA", "DOH", "ATH"],
+      "departureTime": "16:00",
+      "arrivalTime": "09:00",
+      "duration": "17h 0m"
+    },
+    "returnRoute": {
+      "path": "DXB – LHR",
+      "layovers": ["FRA", "DOH", "ATH"],
+      "departureTime": "18:00",
+      "arrivalTime": "11:00",
+      "duration": "17h 0m"
+    }
+  }
+]
