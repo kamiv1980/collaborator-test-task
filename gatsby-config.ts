@@ -14,6 +14,7 @@ const config: GatsbyConfig = {
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
   ],
+  pathPrefix: "/collaborator-test-task",
 }
 
 export default config
